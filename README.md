@@ -23,3 +23,27 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 3. Buat file environment variable
 Salin `.env.example` menjadi `.env.local` dan isi sesuai konfigurasi Anda.
 4. Jalankan development server
+5. Buka di browser:
+
+
+
+
+## 📁 Struktur Folder
+
+/pages         # Halaman utama Next.js (Routing otomatis)
+/components    # Komponen UI seperti Navbar, Card, dll
+/styles        # File CSS/SCSS
+/utils         # Helper atau fungsi utilitas
+/public        # Asset publik seperti gambar
+
+## 🧪 Teknologi yang Digunakan
+
+- Next.js
+
+- Tailwind CSS / CSS Modules (pilih salah satu sesuai implementasi kamu)
+
+- Node.js
+
+- MongoDB (opsional, jika pakai database)
+
+- JWT / NextAuth (untuk autentikasi, jika digunakan)
