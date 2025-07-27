@@ -19,22 +19,34 @@ Proyek ini adalah aplikasi clone dari Stack Overflow, dibangun menggunakan frame
 Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 
 1. Clone repositori
+   ```
+   git clone https://github.com/dhnnnn/stackoverflow.git
+   ```
 2. Install dependencies
+   ```
+   npm install
+   ```
 3. Buat file environment variable
 Salin `.env.example` menjadi `.env.local` dan isi sesuai konfigurasi Anda.
 4. Jalankan development server
+   ```
+   npm run dev
+   ```
 5. Buka di browser:
-
+  ```
+  http://localhost:3000
+  ```
 
 
 
 ## 📁 Struktur Folder
-
+```
 /pages         # Halaman utama Next.js (Routing otomatis)
 /components    # Komponen UI seperti Navbar, Card, dll
 /styles        # File CSS/SCSS
 /utils         # Helper atau fungsi utilitas
 /public        # Asset publik seperti gambar
+```
 
 ## 🧪 Teknologi yang Digunakan
 
