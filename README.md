@@ -36,7 +36,6 @@ Salin `.env.example` menjadi `.env.local` dan isi sesuai konfigurasi Anda.
   http://localhost:3000
   ```
 
-kljihuhj
 
 ## 📁 Struktur Folder
 ```
